@@ -1,1 +1,9 @@
 greeting: "안녕하세요."
+
+spring:
+	profiles: dev
+greeting: "개발 서버입니다."
+
+spring:
+	profiles: local
+greeting: "로컬 서버입니다."
